@@ -48,14 +48,13 @@ body {
 
 
 .second-section {
-    height: 600px;
+    height: 450px;
     text-align: center;
 }
 
 .donet-head  {
     margin: auto;
     
-
 }
 
 .donet-head h1 {
@@ -118,4 +117,44 @@ body {
   #special-btn {
     color: #fff;
     background-color: #f44336;
+  }
+
+
+
+  .third-section {
+    text-align: center;
+  }
+
+
+  .card {
+    display: flex;
+    justify-content:space-evenly;
+    
+  }
+
+  .card div {
+    width: 30%;
+    padding: 60px 20px 30px 20px;
+    background-color: #f443361f;
+    margin: 50px;
+    border-radius: 10px;
+
+  }
+
+
+  footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;font-style: italic;
+  }
+
+  footer h1 {
+    color: #f44336;
+    font-size: 25px;
+  }
+
+  footer p {
+    color: white;
   }
